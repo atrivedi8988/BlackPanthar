@@ -13,6 +13,8 @@ function B() {
   }, [text]);
   return (
     <div style={{marginTop:"200px"}}>
+        
+      <h1>Task - 1</h1>
       <input type="text" onChange={handleChange} style={{width:"30%",textAlign:"center",height:"30px",fontSize:"25px",borderRadius:"20px"}}/>
     </div>
   );
